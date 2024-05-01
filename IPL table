@@ -1,0 +1,26 @@
+CREATE TABLE IPL (
+  id INT, 
+  name VARCHAR(55), 
+  team char(5),
+  role VARCHAR(55), 
+  runs INT, 
+  wickets INT
+);
+
+INSERT INTO IPL (id, name, team, role, runs, wickets) VALUES
+(18, 'Virat Kohli', 'RCB',  'Batsman', 500, 0),
+(07, 'MS Dhoni', 'CSK',  'Keeper', '250', 0),
+(23, 'Faf du Plessis', 'RCB', 'Batsman', 310, 0),
+(77, 'M Siraj', 'RCB', 'Bowler', 20, 3),
+(90, 'Ravindra Jadeja', 'CSK', 'All rounder', 210, 4),
+(23, 'Yuzvendra Chahal', 'RR', 'Bowler', 0, 10),
+(42, 'Sam Curran', 'PBKS', 'All rounder', 180, 5),
+(41, 'KL Rahul', 'LSG', 'Keeper', 320, 0),
+(52, 'Marcus Stoinis', 'LSG', 'All rounder', 310, 6),
+(78, 'Dinesh Karthik', 'RCB', 'Keeper', 280, 0),
+(21, 'Rohit Sharma', 'MI', 'Batsman', 380, 0),
+(55, 'Pat Cummins', 'SRH', 'All rounder', 190, 8),
+(60, 'Bhuvaneshwar Kumar', 'SRH', 'Bowler', 10, 9),
+(45, 'Will Jacks', 'RCB', 'Batsman', NULL, NULL);
+
+SELECT * FROM IPL
