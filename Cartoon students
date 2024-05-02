@@ -1,0 +1,29 @@
+CREATE TABLE students (
+    id INT PRIMARY KEY,
+    name VARCHAR(50),
+    section VARCHAR(10),
+    marks INT
+);
+
+INSERT INTO students (id, name, section, marks) VALUES
+(1, 'Chhota Bheem', 'A', 95),
+(2, 'Shinchan', 'B', 75),
+(3, 'Doraemon', 'A', 90),
+(4, 'Nobita', 'C', 20),
+(5, 'Kalia', 'B', 40),
+(6, 'Gian', 'C', 40),
+(7, 'Dekisugi', 'A', 100),
+(8, 'Suneo', 'B', 80),
+(9, 'Chutki', 'A', 88),
+(10, 'Raju', 'C', 75),
+(11, 'Indumati', 'B', 85),
+(12, 'Hiroshi', 'C', 52),
+(13, 'Misae', 'A', 71),
+(14, 'Shizuka', 'B', 90),
+(18, 'Dorami', 'B', 80),
+(20, 'Ninja Hattori', 'B', 100),
+(21, 'Shiro', 'B', 51),
+(22, 'Bochan', 'A', 97),
+(23, 'Kazama', 'C', 100),
+(24, 'Kenichi', 'C', 33),
+(25, 'Hamara', 'A', 87);
