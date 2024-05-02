@@ -20,10 +20,15 @@ INSERT INTO students (id, name, section, marks) VALUES
 (12, 'Hiroshi', 'C', 52),
 (13, 'Misae', 'A', 71),
 (14, 'Shizuka', 'B', 90),
+(15, 'SpongeBob', 'A', 88),
+(16, 'Patrick', 'C', 79),
+(17, 'Squidward', 'B', 85),
 (18, 'Dorami', 'B', 80),
+(19, 'Sandy', 'A', 92),
 (20, 'Ninja Hattori', 'B', 100),
 (21, 'Shiro', 'B', 51),
 (22, 'Bochan', 'A', 97),
 (23, 'Kazama', 'C', 100),
 (24, 'Kenichi', 'C', 33),
 (25, 'Hamara', 'A', 87);
+
