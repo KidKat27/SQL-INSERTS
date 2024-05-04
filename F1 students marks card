@@ -1,0 +1,23 @@
+CREATE TABLE marksCard (
+	id INT,
+	name VARCHAR(55),
+	subjects VARCHAR(55),
+	marks INT
+);
+
+INSERT INTO marksCard (id, name, subjects, marks) VALUES 
+(1,	'Max Verstappen', 'social', 45),
+(2,	'Sergio Perez',	'science', 80),
+(5,	'Daniel Ricciardo', 'science', 70),
+(4,	'Charles Leclerc', 'science', 60),
+(3,	'Lewis Hamilton', 'science', 90),
+(2,	'Sergio Perez',	'social', 95),
+(2,	'Sergio Perez',	'maths', 85),
+(3,	'Lewis Hamilton', 'maths', 100),
+(1,	'Max Verstappen', 'maths', 35),
+(5,	'Daniel Ricciardo',	'maths', 80),
+(4,	'Charles Leclerc', 'social', 55),
+(5,	'Daniel Ricciardo', 'social', 75),
+(1,	'Max Verstappen', 'science', 50),
+(3,	'Lewis Hamilton', 'social', 95),
+(4,	'Charles Leclerc', 'maths', 75);
