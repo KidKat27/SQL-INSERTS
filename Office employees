@@ -1,0 +1,25 @@
+CREATE TABLE employees (
+    employee_id INT PRIMARY KEY,
+    employee_name VARCHAR(100),
+    age INT,
+    gender VARCHAR(10),
+    salary DECIMAL(10, 2),
+    role VARCHAR(50)
+);
+
+INSERT INTO employees (employee_id, employee_name, age, gender, salary, role) VALUES
+(1, 'Michael Scott', 45, 'Male', 75000.00, 'Regional Manager'),
+(2, 'Dwight Schrute', 35, 'Male', 60000.00, 'Sales'),
+(3, 'Jim Halpert', 30, 'Male', 55000.00, 'Sales'),
+(4, 'Pam Beesly', 28, 'Female', 50000.00, 'Receptionist'),
+(5, 'Angela Martin', 32, 'Female', 55000.00, 'Accountant'),
+(6, 'Kevin Malone', 40, 'Male', 48000.00, 'Accountant'),
+(7, 'Oscar Martinez', 38, 'Male', 60000.00, 'Accountant'),
+(8, 'Stanley Hudson', 55, 'Male', 62000.00, 'Sales'),
+(9, 'Phyllis Vance', 50, 'Female', 55000.00, 'Sales'),
+(10, 'Ryan Howard', 28, 'Male', 50000.00, 'Temp'),
+(11, 'Kelly Kapoor', 27, 'Female', 48000.00, 'Customer Service'),
+(12, 'Meredith Palmer', 45, 'Female', 52000.00, 'Supplier Relations'),
+(13, 'Creed Bratton', 65, 'Male', 40000.00, 'Quality Assurance'),
+(14, 'Toby Flenderson', 40, 'Male', 60000.00, 'Human Resources'),
+(15, 'Andy Bernard', 33, 'Male', 58000.00, 'Regional Director');
